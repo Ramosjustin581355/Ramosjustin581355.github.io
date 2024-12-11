@@ -256,5 +256,17 @@
         </tr>
     </div>
     
+    <script>
+        function openSidebar() {
+            document.getElementById("sidebar").style.width = "250px";
+            document.querySelector(".main-content").style.marginLeft = "250px";
+        }
+
+        function closeSidebar() {
+            document.getElementById("sidebar").style.width = "0";
+            document.querySelector(".main-content").style.marginLeft = "0";
+        }
+    </script>
+
 </body>
 </html>
