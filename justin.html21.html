@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin C. Ramos</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <style>
+        body {
+            background-image: url('https://th.bing.com/th/id/OIP.LdBuZ8KnDgfucRiGNQ5GUQHaNK?rs=1&pid=ImgDetMain');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: white;
+        }
+
+        .profile-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .profile-container img {
+            width: 150px;
+            height: 150px;
+            border-radius: 20%;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.6);
+            margin-right: 60px;
+        }
+
+        .profile-container h1 {
+            color: aliceblue;
+            font-size: 2.5em;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+        }
+        h3, p {
+            margin: 10px 0;
+        }
+
+        p.about-me-text {
+            font-size: 1.1em;
+            line-height: 1.8;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding:  00px;
+            text-align: center;
+        }
+
+        .free-time-text {
+            font-size: 1.1em;
+            line-height: 1.8;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .skills-table h2, .hobbies-table h2 {
+            color: black;
+            font-size: 1.5em;
+        }
+
+        .table-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 40px auto;
+            gap: 20px;
+            max-width: 1000px;
+        }
+
+        .table {
+            width: 45%;
+            background-color: rgba(192, 184, 184, 0.7);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        @media screen and (max-width: 768px) {
+            .table {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid rgb(0, 0, 0);
+        }
+
+        th {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .education-container, .bible-verse-container, .contact-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: rgba(192, 184, 184, 0.7);
+        }
+
+        .education-container h2, .bible-verse-container h2, .contact-container h2 {
+            color: black;
+            text-align: center;
+            font-size: 1.6em;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            font-size: 1.1em;
+            padding: 5px 0;
+        }
+
+        .contact-container table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .image-links {
+            display: flex;
+            justify-content: center;
+            gap: 10%;
+            margin-top: 40px;
+        }
+        .image-links a {
+            width: 150px;
+            height: 100px;
+        }
+
+        .image-links img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 20%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img src="https://scontent.fceb2-1.fna.fbcdn.net/v/t39.30808-6/465710302_1613772859352423_8604425436140539112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHepRsQtSfOzec5HaSHqmwHVo9u4KSgFgNWj27gpKAWA2H06XDAcC11zvEidS1AW2HpML6nntdRdLG5iSY5HnUV&_nc_ohc=Cf_vBl0aPMUQ7kNvgGiF0ja&_nc_zt=23&_nc_ht=scontent.fceb2-1.fna&_nc_gid=A2z3PnhSNBBTTZqIRU94OIU&oh=00_AYDVXPNB7oJ-zgHsbXFmzO7sBQaZUT9rl9F6a4zysZEQ6Q&oe=676B0813" alt="Profile Picture">
+        <h1>𝓙𝓤𝓢𝓣𝓘𝓝 𝓒. 𝓡𝓐𝓜𝓞𝓢</h1>
+    </div>
+    
+    <br>
+    <h3>ABOUT ME:</h3>
+    <p class="about-me-text">
+        I am a full-time Vlogger and YouTuber, creating content that reflects my passions and interests. My channel covers a variety of topics, from personal vlogging to in-depth explorations of technology and gaming. Through my videos, I aim to entertain, educate, and engage my audience by sharing my experiences and discoveries along the way. In addition to my online presence, I am also a first-year Information Technology student at Fellowship Baptist College in Kabankalan City, Negros Occidental, Philippines. My studies are focused on understanding the world of technology, and I’m excited to explore areas such as programming, digital innovation, and software development. I believe that combining my academic journey with my passion for tech will open up numerous opportunities in the future. Living in Kabankalan, a place known for its rich culture and natural beauty, I am constantly inspired by my surroundings. I have a strong interest in biology, particularly the intersection between technology and the natural world. I’m eager to learn how technological advancements can help us better understand and protect our environment.
+    </p>
+
+    <div class="table-container">
+        <div class="table skills-table">
+            <h2>Skills</h2>
+            <ul>
+                <li>LEADERSHIP</li>
+                <li>CREATIVITY</li>
+                <li>TEAM WORK</li>
+                <li>ORGANIZATION</li>
+                <li>ADAPTABILITY</li>
+                <li>TIME MANAGEMENT</li>
+                <li>MULTI-TASKING</li>
+                <li>VIDEO EDITING</li>
+                <li>CODING</li>
+            </ul>
+        </div>
+        <div class="table hobbies-table">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>VLOGGING</li>
+                <li>GAMING</li>
+                <li>CODING</li>
+                <li>BADMINTON</li>
+                <li>CLEANING HOUSE</li>
+            </ul>
+        </div>
+    </div>
+
+    <p class="free-time-text">
+        In my free time, I enjoy a variety of hobbies that keep me active, creative, and continually learning. Vlogging allows me to capture moments and share meaningful experiences with others, showcasing my life and interests while connecting with a broader audience. Gaming is another passion, offering a fun and engaging way to unwind, challenge my mind, and explore different worlds and strategies. Staying physically active is also important to me, and I find great enjoyment in playing badminton, a sport that helps me maintain my fitness while encouraging teamwork and friendly competition. Additionally, I take pride in keeping my living space organized and clean, finding satisfaction in creating an environment that brings a sense of calm and productivity.  
+
+        Beyond my hobbies, I possess a strong foundation in leadership, creativity, and teamwork, which allows me to guide teams toward shared goals while fostering an environment of innovation and collaboration. My organizational skills enable me to manage multiple projects simultaneously, ensuring that deadlines are met without compromising quality or attention to detail. Thriving in dynamic environments, I adapt quickly to new challenges and develop efficient solutions that drive progress. My ability to prioritize tasks effectively through excellent time management and multitasking ensures that I remain productive and focused, even in demanding situations. Additionally, my expertise in both coding and video editing equips me with the technical and creative skills needed to deliver polished, impactful results, whether I’m contributing to a project, solving problems, or creating content that resonates with others.
+    </p>
+    
+    <div class="education-container">
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Level</th>
+                <th>School</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>Elementary</td>
+                <td> Esteban R. Abada Memorial School- West</td>
+                <td>2014-2018</td>
+            </tr>
+            <tr>
+                <td>High School</td>
+                <td>Kabankalan National High School</td>
+                <td>2018 - 2022</td>
+            </tr>
+            <tr>
+                <td>College</td>
+                <td>Fellowship Baptist College</td>
+                <td>2024 - Present</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="bible-verse-container">
+        <h2>Favorite Bible Verse</h2>
+        <table>
+            <tr>
+                <th>Verse</th>
+                <th>Reference</th>
+            </tr>
+            <tr>
+                <td>“For I know the plans I have for you,” declares the Lord, “plans to prosper you and not to harm you, plans to give you a hope and a future.”</td>
+                <td>Jeremiah 29:11</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="contact-container">
+        <h2>Contact Information:</h2>
+        <table>
+            <tr>
+                <th>Facebook</th>
+                <td>Justin Ramos</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>ramosJustin@gmail.com.ph</td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>-------- THANK YOU! --------</h3>
+    <br>
+    <img src="https://edukasyon-production.s3.amazonaws.com/uploads/school/avatar/1682/fellowship-baptist-college.jpg" alt="Thank You Image" style="width: 100px; height: 100px; border-radius: 20%; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);">
+    <br>
+    <h2>Fellowship Baptist College</h2>
+    <P>Computer Society Students</P>
+    <P>College of Engineering and Computer Studies</P>
+    <h4>@Alrightservice2024</h4>
+</body>
+</html>
